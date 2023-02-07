@@ -22,6 +22,7 @@ func main(){
     go elevio.PollObstructionSwitch(drv_obstr)
     go elevio.PollStopButton(drv_stop)
     
+    fmt.Println("Test")
     
     for {
         select {
